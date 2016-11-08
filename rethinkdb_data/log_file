@@ -1,0 +1,79 @@
+2016-11-07T01:27:41.742986927 0.055825s notice: Recursively removing directory /home/ubuntu/workspace/rethinkdb_data/tmp
+2016-11-07T01:27:41.753144930 0.065984s notice: Initializing directory /home/ubuntu/workspace/rethinkdb_data
+2016-11-07T01:27:41.753289462 0.066125s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/ubuntu/workspace/rethinkdb_data' did not already exist or is empty.)
+2016-11-07T01:27:41.753327003 0.066163s notice: Running rethinkdb 2.3.5~0trusty (GCC 4.8.2)...
+2016-11-07T01:27:41.757332459 0.070170s notice: Running on Linux 4.2.0-c9 x86_64
+2016-11-07T01:27:41.757391261 0.070227s notice: Loading data from directory /home/ubuntu/workspace/rethinkdb_data
+2016-11-07T01:27:41.804042486 0.116881s info: Automatically using cache size of 14100 MB
+2016-11-07T01:27:41.805082598 0.117919s notice: Listening for intracluster connections on port 29015
+2016-11-07T01:27:41.806467737 0.119304s notice: Listening for client driver connections on port 28015
+2016-11-07T01:27:41.806636329 0.119472s notice: Listening for administrative HTTP connections on port 8080
+2016-11-07T01:27:41.806637640 0.119473s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-11-07T01:27:41.806639217 0.119475s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-11-07T01:27:41.806644002 0.119480s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-11-07T01:27:41.806648342 0.119484s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-11-07T01:27:41.806652969 0.119489s notice: Server ready, "bazmatic1_rainbow_connection_3994463_qhx" c657fb61-e18b-4ff2-a7c4-d327d18ecd9e
+2016-11-07T01:27:46.797128188 5.109965s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-11-07T01:27:46.797258336 5.110094s notice: Shutting down client connections...
+2016-11-07T01:27:46.797351034 5.110187s notice: All client connections closed.
+2016-11-07T01:27:46.797352766 5.110188s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-11-07T01:27:46.797714029 5.110550s notice: Storage engine shut down.
+2016-11-07T01:27:57.434583800 0.114019s notice: Running rethinkdb 2.3.5~0trusty (GCC 4.8.2)...
+2016-11-07T01:27:57.438497033 0.117930s notice: Running on Linux 4.2.0-c9 x86_64
+2016-11-07T01:27:57.438556256 0.117987s notice: Loading data from directory /home/ubuntu/workspace/rethinkdb_data
+2016-11-07T01:27:57.460041531 0.139475s info: Automatically using cache size of 13873 MB
+2016-11-07T01:27:57.464456664 0.143888s notice: Listening for intracluster connections on port 29015
+2016-11-07T01:27:57.465839422 0.145271s notice: Listening for client driver connections on port 28015
+2016-11-07T01:27:57.465999708 0.145431s notice: Listening for administrative HTTP connections on port 8080
+2016-11-07T01:27:57.466962178 0.146393s notice: Listening on cluster addresses: 127.0.0.1, 172.17.13.131, ::1, fe80::42:acff:fe11:d83%6918
+2016-11-07T01:27:57.467626334 0.147057s notice: Listening on driver addresses: 127.0.0.1, 172.17.13.131, ::1, fe80::42:acff:fe11:d83%6918
+2016-11-07T01:27:57.468378579 0.147810s notice: Listening on http addresses: 127.0.0.1, 172.17.13.131, ::1, fe80::42:acff:fe11:d83%6918
+2016-11-07T01:27:57.468392436 0.147823s notice: Server ready, "bazmatic1_rainbow_connection_3994463_qhx" c657fb61-e18b-4ff2-a7c4-d327d18ecd9e
+2016-11-07T01:50:40.411119982 1363.090552s info: Table 4036a208-8427-4a82-b1de-083169b77336: Starting a new Raft election for term 1.
+2016-11-07T01:50:40.411644572 1363.091076s info: Table 4036a208-8427-4a82-b1de-083169b77336: Added replica on this server.
+2016-11-07T01:50:40.418268865 1363.097701s info: Table 4036a208-8427-4a82-b1de-083169b77336: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T01:50:59.402676728 1382.082108s notice: Removing file /home/ubuntu/workspace/rethinkdb_data/4036a208-8427-4a82-b1de-083169b77336
+2016-11-07T01:50:59.402692014 1382.082123s info: Table 4036a208-8427-4a82-b1de-083169b77336: Deleted the table.
+2016-11-07T01:51:07.591972770 1390.271404s info: Table 2055cad8-b714-420e-8f35-702b91fc1c14: Starting a new Raft election for term 1.
+2016-11-07T01:51:07.592175898 1390.271607s info: Table 2055cad8-b714-420e-8f35-702b91fc1c14: Added replica on this server.
+2016-11-07T01:51:07.598229968 1390.277662s info: Table 2055cad8-b714-420e-8f35-702b91fc1c14: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T01:54:12.203295821 1574.882727s info: Table fa2b8b96-53fd-4bed-a788-ae1ac298e3cc: Starting a new Raft election for term 1.
+2016-11-07T01:54:12.203693527 1574.883125s info: Table fa2b8b96-53fd-4bed-a788-ae1ac298e3cc: Added replica on this server.
+2016-11-07T01:54:12.208249813 1574.887681s info: Table fa2b8b96-53fd-4bed-a788-ae1ac298e3cc: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T01:54:45.552999513 1608.232432s notice: Removing file /home/ubuntu/workspace/rethinkdb_data/2055cad8-b714-420e-8f35-702b91fc1c14
+2016-11-07T01:54:45.553015725 1608.232447s info: Table 2055cad8-b714-420e-8f35-702b91fc1c14: Deleted the table.
+2016-11-07T01:54:53.731815871 1616.411247s info: Table 54159606-2c83-45b7-bd1a-1995a4fc8016: Starting a new Raft election for term 1.
+2016-11-07T01:54:53.732053449 1616.411485s info: Table 54159606-2c83-45b7-bd1a-1995a4fc8016: Added replica on this server.
+2016-11-07T01:54:53.739861380 1616.419293s info: Table 54159606-2c83-45b7-bd1a-1995a4fc8016: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T04:56:26.683008186 12509.362440s info: Table 68c36869-2a83-48c7-bdb2-1c233f5b4548: Starting a new Raft election for term 1.
+2016-11-07T04:56:26.683640154 12509.363072s info: Table 68c36869-2a83-48c7-bdb2-1c233f5b4548: Added replica on this server.
+2016-11-07T04:56:26.690421893 12509.369854s info: Table 68c36869-2a83-48c7-bdb2-1c233f5b4548: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T04:57:05.957083681 12548.636515s notice: Removing file /home/ubuntu/workspace/rethinkdb_data/68c36869-2a83-48c7-bdb2-1c233f5b4548
+2016-11-07T04:57:05.957095218 12548.636526s info: Table 68c36869-2a83-48c7-bdb2-1c233f5b4548: Deleted the table.
+2016-11-07T05:01:40.292350539 12822.971782s info: Table 1ecf9bac-6b7b-4c32-bcad-5c364c41455b: Added replica on this server.
+2016-11-07T05:01:40.292598395 12822.972030s info: Table 1ecf9bac-6b7b-4c32-bcad-5c364c41455b: Starting a new Raft election for term 1.
+2016-11-07T05:01:40.300338929 12822.979771s info: Table 1ecf9bac-6b7b-4c32-bcad-5c364c41455b: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T05:01:40.923810491 12823.603242s info: Table 67acef33-7cd9-455e-b8b0-02d6d47f1d9d: Starting a new Raft election for term 1.
+2016-11-07T05:01:40.924574735 12823.604006s info: Table 67acef33-7cd9-455e-b8b0-02d6d47f1d9d: Added replica on this server.
+2016-11-07T05:01:40.940104648 12823.619537s info: Table 67acef33-7cd9-455e-b8b0-02d6d47f1d9d: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T05:01:41.626547422 12824.305979s info: Table 2728b16d-c425-487a-a828-96c6a56cdac8: Starting a new Raft election for term 1.
+2016-11-07T05:01:41.627280970 12824.306712s info: Table 2728b16d-c425-487a-a828-96c6a56cdac8: Added replica on this server.
+2016-11-07T05:01:41.639975573 12824.319408s info: Table 2728b16d-c425-487a-a828-96c6a56cdac8: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T05:51:00.864830940 15783.544262s info: Table 7777411c-5e36-4557-9f80-05ed65c261bd: Starting a new Raft election for term 1.
+2016-11-07T05:51:00.865485416 15783.544917s info: Table 7777411c-5e36-4557-9f80-05ed65c261bd: Added replica on this server.
+2016-11-07T05:51:00.872393461 15783.551825s info: Table 7777411c-5e36-4557-9f80-05ed65c261bd: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T05:53:07.918521091 15910.597953s notice: Removing file /home/ubuntu/workspace/rethinkdb_data/1ecf9bac-6b7b-4c32-bcad-5c364c41455b
+2016-11-07T05:53:07.918540344 15910.597972s info: Table 1ecf9bac-6b7b-4c32-bcad-5c364c41455b: Deleted the table.
+2016-11-07T05:53:07.932621953 15910.612054s notice: Removing file /home/ubuntu/workspace/rethinkdb_data/2728b16d-c425-487a-a828-96c6a56cdac8
+2016-11-07T05:53:07.932640859 15910.612072s info: Table 2728b16d-c425-487a-a828-96c6a56cdac8: Deleted the table.
+2016-11-07T05:53:07.946637051 15910.626069s notice: Removing file /home/ubuntu/workspace/rethinkdb_data/67acef33-7cd9-455e-b8b0-02d6d47f1d9d
+2016-11-07T05:53:07.946658006 15910.626089s info: Table 67acef33-7cd9-455e-b8b0-02d6d47f1d9d: Deleted the table.
+2016-11-07T23:17:30.403255764 78573.082687s info: Table b018a226-fda0-4bd9-a5f5-d006ac552f22: Starting a new Raft election for term 1.
+2016-11-07T23:17:30.403620641 78573.083052s info: Table b018a226-fda0-4bd9-a5f5-d006ac552f22: Added replica on this server.
+2016-11-07T23:17:30.408421606 78573.087853s info: Table b018a226-fda0-4bd9-a5f5-d006ac552f22: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T23:17:30.756027342 78573.435459s info: Table d1b2eafa-d4b2-45e5-a047-79f381a235c3: Starting a new Raft election for term 1.
+2016-11-07T23:17:30.756231523 78573.435663s info: Table d1b2eafa-d4b2-45e5-a047-79f381a235c3: Added replica on this server.
+2016-11-07T23:17:30.761385377 78573.440817s info: Table d1b2eafa-d4b2-45e5-a047-79f381a235c3: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-07T23:17:31.086968923 78573.766401s info: Table b2e8fad5-75aa-4c01-a5bd-0e6c238de45a: Starting a new Raft election for term 1.
+2016-11-07T23:17:31.087267944 78573.766699s info: Table b2e8fad5-75aa-4c01-a5bd-0e6c238de45a: Added replica on this server.
+2016-11-07T23:17:31.091643114 78573.771074s info: Table b2e8fad5-75aa-4c01-a5bd-0e6c238de45a: This server is Raft leader for term 1. Latest log index is 0.

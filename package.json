@@ -1,0 +1,16 @@
+{
+  "name": "Rainbow Connection",
+  "version": "0.0.0",
+  "description": "Simple API to manage data imports to a RethinkDB server",
+  "main": "server.js",
+  "repository": "",
+  "author": "Barry Earsman <barry.earsman@gmail.com>",
+  "dependencies": {
+    "async": "^0.2.10",
+    "body-parser": "^1.15.2",
+    "express": "~3.2.4",
+    "request": "^2.78.0",
+    "rethinkdb": "^2.3.3",
+    "socket.io": "~0.9.14"
+  }
+}
